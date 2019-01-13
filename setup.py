@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="mdx-pmwiki-tables",
     version="0.1",
+    packages=['mdx_pmwiki_tables'],
     install_requires['Markdown>=2.6.11'],
     author="John David Pressman",
     author_email="jd@jdpressman.com",
